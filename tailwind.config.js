@@ -17,5 +17,10 @@ export default {
         },
     },
 
-    plugins: [forms],
+    daisyui:
+    {
+        themes:['light']//if we dont do this its gonna add 20 30 themes so do this
+    },
+
+    plugins: [forms,require('daisyui'),],
 };
